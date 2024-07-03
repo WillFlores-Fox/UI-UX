@@ -1,0 +1,181 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+/*=================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+DE+Grund:wght@100..400&family=Playwrite+NO: wght@100..400&family=Playwrite+NZ:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+/*=================================*/
+
+.naveg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    background-color: white;
+    padding: 10px 0px 10px 0px;
+
+    position: fixed;
+    width: 1349px;
+}
+
+.logo {
+    font-size: 20px;
+
+    background-image: linear-gradient(to right, rgb(82, 0, 82), rgb(184, 0, 184));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    color: rgba(0,0,0,0);
+
+    display: flex;
+    justify-content: start;
+    margin: 0px 30px 0px 100px;
+}
+
+.menu a {
+    color: black;
+    font-size: 15px;
+    font-family: 'Playwrite DE Grund';
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    margin: 0px 15px 20px 0px;
+}
+
+.menu a::after {
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.menu a:hover::after {
+    width: 100%;
+}
+
+/*========================================*/
+
+.boas {
+    width: 100%;
+    height: 635px;
+    background-image: linear-gradient(to right, rgb(46, 0, 46), purple);
+    
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boas img {
+    width: auto;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    image-resolution: 3000px;
+}
+
+.oi {
+    max-width: 450px;
+
+    padding: 0px 0px 0px 30px;
+}
+
+.oi h1 {
+    color: white;
+    font-size: 55px;
+    font-family: 'Dancing Script';
+
+    padding: 0px 0px 20px 0px;
+}
+
+.oi p {
+    color: white;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*=========================================*/
+
+.linhas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 20px;
+
+    background-color: rgb(197, 197, 197);
+    background-size: 100%;
+}
+
+.videos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/*========================================*/
+
+footer {
+    background-color: white;
+    width: 1349px;
+    height: 500px;
+
+    box-shadow: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+footer .icone {
+    font-weight: bold;
+    font-size: 70px;
+
+    background-image: linear-gradient(to right, rgb(82, 0, 82), rgb(184, 0, 184));
+    background-size: 100%;
+
+    -webkit-background-clip: text;
+    color: rgba(0,0,0,0);
+
+    display: flex;
+    align-items: center;
+}
+
+footer .contato {
+    font-size: 20px;
+    font-family: 'Playwrite DE Grund';
+
+    color: black;
+
+    display: flex;
+    align-items: end;
+}
+
+footer .icones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .icones a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Playwrite DE Grund';
+    color: black;
+}
