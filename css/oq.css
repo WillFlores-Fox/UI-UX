@@ -1,0 +1,72 @@
+#oq p {
+    font-size: 17px;
+    font-family: 'Playwrite DE Grund';
+    font-style: oblique;
+
+    max-width: 500px;
+}
+
+#oq h1 {
+    font-size: 40px;
+    font-family: 'Dancing Script';
+    font-weight: bolder;
+
+    margin: 0px 0px 20px 0px;
+}  
+
+#oq .linha1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 50px 0px 50px 0px;
+}
+
+#oq .linha2 {
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #340760;
+    width: 1349px;
+    height: 410px;
+
+    margin: 0px 0px 50px 0px;
+}
+
+#oq .linha3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 50px 0px 50px 0px;
+}
+
+#oq .linha4 {
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #340760;
+    width: 1349px;
+    height: 410px;
+
+    margin: 0px 0px 50px 0px;
+}
+
+#oq .linha5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 50px 0px 50px 0px;
+}
