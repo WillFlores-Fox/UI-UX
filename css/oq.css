@@ -1,7 +1,8 @@
-#oq p {
+#oq p,li {
     font-size: 17px;
     font-family: 'Playwrite DE Grund';
     font-style: oblique;
+    font-weight: bolder;
 
     max-width: 500px;
 }
@@ -11,8 +12,10 @@
     font-family: 'Dancing Script';
     font-weight: bolder;
 
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 0px 0px;
 }  
+
+/*=====================================*/
 
 #oq .linha1 {
     display: flex;
@@ -23,44 +26,126 @@
     margin: 50px 0px 50px 0px;
 }
 
+#oq .linha1 #partea{
+    display: flex;
+    flex-direction: row;
+}
+
+#oq .linha1 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#oq .linha1 img {
+    height: 300px;
+    width: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*=========================================*/
+
 #oq .linha2 {
     color: white;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
 
     background-color: #340760;
-    width: 1349px;
-    height: 410px;
+    width: 100%;
+    height: 100%;
 
     margin: 0px 0px 50px 0px;
 }
 
-#oq .linha3 {
+#oq .linha2 p {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#oq .linha2 #parteb {
+    display: flex;
+    flex-direction: row;
+
+    width: 70%;
+}
+
+#oq .linha2 #parteb img {
+    height: 200px;
+    width: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*==================================*/
+
+#oq .linha3 {
+    color: black;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     flex-direction: column;
 
-    margin: 50px 0px 50px 0px;
+    margin: 0px 0px 50px 0px;
 }
+
+#oq .linha3 p,li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*==================================*/
 
 #oq .linha4 {
     color: white;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
 
     background-color: #340760;
-    width: 1349px;
-    height: 410px;
+    width: 100%;
+    height: 100%;
 
     margin: 0px 0px 50px 0px;
 }
+
+#oq .linha4 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#oq .linha4 #parted {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    width: 70%;
+}
+
+#oq .linha4 #parted img {
+    height: 200px;
+    width: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*==================================*/
 
 #oq .linha5 {
     display: flex;

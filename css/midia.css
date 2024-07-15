@@ -1,0 +1,225 @@
+@media (width: 412px) and (height: 914px) {
+    
+    *{
+        margin: 0;
+        padding: 0;
+
+        max-width: 412px;
+    }
+
+    .naveg {
+        position: relative;
+
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .naveg h1 {
+        padding: 0px 70px 0px 0px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .naveg .menu {
+        padding: 20px 0px 0px 0px;
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*===========================*/
+
+    #boas {
+        background-size: 100%;
+        size: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /*=========================*/
+
+    #oq {
+        width: 412px;
+        height: auto;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .linha1 {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*=========================*/
+
+    .linhas #oq .linha1 #partea {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        max-width: 95%;
+    }
+
+    .linhas #oq .linha1 #partea p {
+        padding: 15px 0px 15px 0px;
+    }
+    
+    /*=========================*/
+
+    .linhas #oq .linha2 #parteb {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+
+        max-width: 95%;
+    }
+
+    .linhas #oq .linha2 #parteb p {
+        padding: 15px 0px 15px 0px;
+    }
+
+    /*=========================*/
+
+    .linhas #oq .linha3 #partec {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        max-width: 90%;
+    }
+
+    .linhas #oq .linha3 #partec p {
+        padding: 15px 0px 15px 0px;
+    }
+
+    /*=========================*/
+
+    .linhas #oq .linha4 #parted {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        max-width: 90%;
+    }
+
+    .linhas #oq .linha4 #parted p {
+        padding: 15px 0px 15px 0px;
+    }
+
+    /*=========================*/
+
+    .linhas #oq .linha5 #partee {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        max-width: 90%;
+    }
+
+    .linhas #oq .linha5 #partee p {
+        padding: 15px 0px 15px 0px;
+    }
+
+    /*=========================*/
+
+    .pergunta {
+        width: 100%;
+        height: 250px;
+        background-image: url('https://miro.medium.com/v2/resize:fit:8000/1*cT0mP_QD6DdYLoeS7bzYeA.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: 0px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        
+        margin: 0px 0px 100px 0px;
+    }
+    
+    .pergunta p {
+        color: black;
+    
+        font-size: 25px;
+        font-family: 'Dancing Script';
+        font-weight: bold;
+        font-style: oblique;
+    
+        position: relative;
+        top: 20px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        max-width: 85%;
+    }
+    
+    /*============================*/
+    
+    #dif {
+        font-size: 15px;
+        font-family: 'Playwrite DE Grund';
+        font-style: oblique;
+        font-weight: bold;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #dif p,li{
+        max-width: 85%;
+    }
+    
+    #dif li {
+        list-style-type: decimal;
+    }
+
+    /*=========================*/
+
+    footer {
+        height: 100%;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    footer #colunaM .contato { 
+        padding: 15px 0px 15px 0px;
+    }
+
+    footer #colunaM .icones {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer #colunaM {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
