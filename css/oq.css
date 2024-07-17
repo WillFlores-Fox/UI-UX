@@ -1,157 +1,98 @@
-#oq p,li {
-    font-size: 17px;
-    font-family: 'Playwrite DE Grund';
-    font-style: oblique;
-    font-weight: bolder;
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+DE+Grund:wght@100..400&family=Playwrite+NO: wght@100..400&family=Playwrite+NZ:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
-    max-width: 500px;
+#oq li {
+    font-family: 'Playwrite DE Grund';
+
+    max-width: 50%;
+}
+
+#oq p {
+    font-family: 'Playwrite DE Grund';
+
+    max-width: 400px;
 }
 
 #oq h1 {
-    font-size: 40px;
     font-family: 'Dancing Script';
-    font-weight: bolder;
 
-    margin: 0px 0px 0px 0px;
-}  
+    max-width: 50%;
+}
 
-/*=====================================*/
+#oq .titulo {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+    font-size: 30px;
 
-#oq .linha1 {
+    margin: 50px 0px 0px 0px;
+} 
+
+.linha1 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    color: white;
+
+    background-color: #340760;
+    border-radius: 360px;
+    width: 100%;
+
+    margin: 50px 0px 20px 0px;
+    padding: 45px 0px 45px 0px;
+}
+
+.suiux {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 
     margin: 50px 0px 50px 0px;
 }
 
-#oq .linha1 #partea{
-    display: flex;
-    flex-direction: row;
-}
-
-#oq .linha1 p {
+.linha2{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
+.linha2 img{
+    width: 200px;
+    height: auto;
+}
 
-#oq .linha1 img {
-    height: 300px;
-    width: auto;
-
+.linha3{
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-
-/*=========================================*/
-
-#oq .linha2 {
-    color: white;
-
-    display: flex;
-    justify-content: space-around;
     align-items: center;
     flex-direction: column;
 
-    background-color: #340760;
-    width: 100%;
-    height: 100%;
-
-    margin: 0px 0px 50px 0px;
-}
-
-#oq .linha2 p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#oq .linha2 #parteb {
-    display: flex;
-    flex-direction: row;
-
-    width: 70%;
-}
-
-#oq .linha2 #parteb img {
-    height: 200px;
-    width: auto;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/*==================================*/
-
-#oq .linha3 {
     color: black;
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-
-    margin: 0px 0px 50px 0px;
 }
 
-#oq .linha3 p,li {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.linha3 img {
+    width: 175px;
+    height: auto;
 }
 
-/*==================================*/
-
-#oq .linha4 {
-    color: white;
-
+.linha4{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 
     background-color: #340760;
+    border-radius: 360px;
     width: 100%;
-    height: 100%;
 
-    margin: 0px 0px 50px 0px;
-}
+    color: white;
 
-#oq .linha4 p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#oq .linha4 #parted {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-    width: 70%;
-}
-
-#oq .linha4 #parted img {
-    height: 200px;
-    width: auto;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/*==================================*/
-
-#oq .linha5 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-    margin: 50px 0px 50px 0px;
+    margin: 20px 0px 20px 0px;
+    padding: 20px 0px 20px 0px;
 }
